@@ -10,10 +10,16 @@ import UIKit
 
 class PieceView: UIView {
 
-    override init(frame: CGRect) {
+    init(frame: CGRect, num: Int) {
         super.init(frame: frame)
         
-        self.backgroundColor = UIColor.redColor()           // TODO: red and black are possible. Make color part of init
+        var color: UIColor
+        if (num % 2 == 0){
+            color = UIColor.redColor()
+        } else {
+            color = UIColor.blackColor()                    // black goes first
+        }
+        self.backgroundColor = color
         self.layer.cornerRadius = frame.size.width / 2.0    // makes a perfect circle
     }
 

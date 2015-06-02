@@ -11,12 +11,13 @@ import UIKit
 class ViewController: UIViewController {
     
     var gameBoardView: GameBoardView!
-    
+    var gameState: Model!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
+        self.gameState = Model()
         self.gameBoardView = GameBoardView()
         self.view.addSubview(self.gameBoardView)
         
@@ -51,7 +52,8 @@ class ViewController: UIViewController {
         frame.origin = point
         
         // Add piece to board
-        var piece: PieceView = PieceView(frame: frame)
+        gameState.piecesPlayed++
+        var piece: PieceView = PieceView(frame: frame, num: gameState.piecesPlayed)
         self.view.insertSubview(piece, belowSubview: self.gameBoardView)
         
         // Drop piece using animation. Remove when hits bottom of screen.

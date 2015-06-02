@@ -15,6 +15,7 @@
 		BFC6F0A51B1D177300FD216E /* ConnectFourTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC6F0A41B1D177300FD216E /* ConnectFourTests.swift */; };
 		BFC6F0AF1B1DC8D100FD216E /* GameBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC6F0AE1B1DC8D100FD216E /* GameBoardView.swift */; };
 		BFC6F0B11B1DD42100FD216E /* PieceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC6F0B01B1DD42100FD216E /* PieceView.swift */; };
+		BFC6F0B51B1E433100FD216E /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC6F0B41B1E433100FD216E /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		BFC6F0A41B1D177300FD216E /* ConnectFourTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectFourTests.swift; sourceTree = "<group>"; };
 		BFC6F0AE1B1DC8D100FD216E /* GameBoardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameBoardView.swift; sourceTree = "<group>"; };
 		BFC6F0B01B1DD42100FD216E /* PieceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieceView.swift; sourceTree = "<group>"; };
+		BFC6F0B41B1E433100FD216E /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 			children = (
 				BFC6F08E1B1D177300FD216E /* AppDelegate.swift */,
 				BFC6F0901B1D177300FD216E /* ViewController.swift */,
+				BFC6F0B41B1E433100FD216E /* Model.swift */,
 				BFC6F0AE1B1DC8D100FD216E /* GameBoardView.swift */,
 				BFC6F0B01B1DD42100FD216E /* PieceView.swift */,
 				BFC6F0921B1D177300FD216E /* Main.storyboard */,
@@ -218,6 +221,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFC6F0B51B1E433100FD216E /* Model.swift in Sources */,
 				BFC6F0911B1D177300FD216E /* ViewController.swift in Sources */,
 				BFC6F08F1B1D177300FD216E /* AppDelegate.swift in Sources */,
 				BFC6F0AF1B1DC8D100FD216E /* GameBoardView.swift in Sources */,
