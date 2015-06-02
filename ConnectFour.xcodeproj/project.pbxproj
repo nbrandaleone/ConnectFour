@@ -13,6 +13,8 @@
 		BFC6F0961B1D177300FD216E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFC6F0951B1D177300FD216E /* Images.xcassets */; };
 		BFC6F0991B1D177300FD216E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFC6F0971B1D177300FD216E /* LaunchScreen.xib */; };
 		BFC6F0A51B1D177300FD216E /* ConnectFourTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC6F0A41B1D177300FD216E /* ConnectFourTests.swift */; };
+		BFC6F0AF1B1DC8D100FD216E /* GameBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC6F0AE1B1DC8D100FD216E /* GameBoardView.swift */; };
+		BFC6F0B11B1DD42100FD216E /* PieceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC6F0B01B1DD42100FD216E /* PieceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		BFC6F09E1B1D177300FD216E /* ConnectFourTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConnectFourTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFC6F0A31B1D177300FD216E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BFC6F0A41B1D177300FD216E /* ConnectFourTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectFourTests.swift; sourceTree = "<group>"; };
+		BFC6F0AE1B1DC8D100FD216E /* GameBoardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameBoardView.swift; sourceTree = "<group>"; };
+		BFC6F0B01B1DD42100FD216E /* PieceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 			children = (
 				BFC6F08E1B1D177300FD216E /* AppDelegate.swift */,
 				BFC6F0901B1D177300FD216E /* ViewController.swift */,
+				BFC6F0AE1B1DC8D100FD216E /* GameBoardView.swift */,
+				BFC6F0B01B1DD42100FD216E /* PieceView.swift */,
 				BFC6F0921B1D177300FD216E /* Main.storyboard */,
 				BFC6F0951B1D177300FD216E /* Images.xcassets */,
 				BFC6F0971B1D177300FD216E /* LaunchScreen.xib */,
@@ -214,6 +220,8 @@
 			files = (
 				BFC6F0911B1D177300FD216E /* ViewController.swift in Sources */,
 				BFC6F08F1B1D177300FD216E /* AppDelegate.swift in Sources */,
+				BFC6F0AF1B1DC8D100FD216E /* GameBoardView.swift in Sources */,
+				BFC6F0B11B1DD42100FD216E /* PieceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
