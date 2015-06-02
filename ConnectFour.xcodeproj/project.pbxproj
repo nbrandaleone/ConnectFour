@@ -15,7 +15,6 @@
 		BFC6F0A51B1D177300FD216E /* ConnectFourTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC6F0A41B1D177300FD216E /* ConnectFourTests.swift */; };
 		BFC6F0AF1B1DC8D100FD216E /* GameBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC6F0AE1B1DC8D100FD216E /* GameBoardView.swift */; };
 		BFC6F0B11B1DD42100FD216E /* PieceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC6F0B01B1DD42100FD216E /* PieceView.swift */; };
-		BFC6F0B31B1E135200FD216E /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = BFC6F0B21B1E135200FD216E /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +40,6 @@
 		BFC6F0A41B1D177300FD216E /* ConnectFourTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectFourTests.swift; sourceTree = "<group>"; };
 		BFC6F0AE1B1DC8D100FD216E /* GameBoardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameBoardView.swift; sourceTree = "<group>"; };
 		BFC6F0B01B1DD42100FD216E /* PieceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieceView.swift; sourceTree = "<group>"; };
-		BFC6F0B21B1E135200FD216E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +84,6 @@
 				BFC6F08E1B1D177300FD216E /* AppDelegate.swift */,
 				BFC6F0901B1D177300FD216E /* ViewController.swift */,
 				BFC6F0AE1B1DC8D100FD216E /* GameBoardView.swift */,
-				BFC6F0B21B1E135200FD216E /* README.md */,
 				BFC6F0B01B1DD42100FD216E /* PieceView.swift */,
 				BFC6F0921B1D177300FD216E /* Main.storyboard */,
 				BFC6F0951B1D177300FD216E /* Images.xcassets */,
@@ -223,7 +220,6 @@
 			files = (
 				BFC6F0911B1D177300FD216E /* ViewController.swift in Sources */,
 				BFC6F08F1B1D177300FD216E /* AppDelegate.swift in Sources */,
-				BFC6F0B31B1E135200FD216E /* README.md in Sources */,
 				BFC6F0AF1B1DC8D100FD216E /* GameBoardView.swift in Sources */,
 				BFC6F0B11B1DD42100FD216E /* PieceView.swift in Sources */,
 			);
@@ -423,6 +419,7 @@
 				BFC6F0AA1B1D177300FD216E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BFC6F0AB1B1D177300FD216E /* Build configuration list for PBXNativeTarget "ConnectFourTests" */ = {
 			isa = XCConfigurationList;
@@ -431,6 +428,7 @@
 				BFC6F0AD1B1D177300FD216E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
